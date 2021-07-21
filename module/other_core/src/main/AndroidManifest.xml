@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.other_core" >
+
+    <application>
+        <activity
+            android:name=".OtherActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CommonTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="app.test"
+                    android:pathPattern="/other"
+                    android:scheme="cong" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

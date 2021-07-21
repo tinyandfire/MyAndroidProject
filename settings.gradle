@@ -1,0 +1,17 @@
+include ':app', ':app_debug'
+include ':main_core'
+project(':main_core').projectDir = new File("${rootProject.projectDir}/module/main_core")
+include ':other_core'
+project(':other_core').projectDir = new File("${rootProject.projectDir}/module/other_core")
+include ':android_module'
+project(':android_module').projectDir = new File("${rootProject.projectDir}/module/android_module")
+include ':image_loader'
+project(':image_loader').projectDir = new File("${rootProject.projectDir}/module/image_loader")
+include ':myview'
+project(':myview').projectDir = new File("${rootProject.projectDir}/module/myview")
+include ':appbase'
+project(':appbase').projectDir = new File("${rootProject.projectDir}/module/appbase")
+include ':api'
+project(':api').projectDir = new File("${rootProject.projectDir}/module/api")
+include ':base2'
+project(':base2').projectDir = new File("${rootProject.projectDir}/module/base2")

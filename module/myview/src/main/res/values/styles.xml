@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/colorAppBg</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <declare-styleable name="ProgressImageView">
+        <attr name="max" />
+        <attr name="progress" />
+        <attr name="progressStroke" />
+        <attr name="progressColor" />
+        <attr name="progressBackgroundColor" />
+        <attr name="showProgress" format="boolean" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="progressHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ZEditText">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <!-- 输入的文字的个数 -->
+        <attr name="inputCount" format="integer" />
+        <!-- 文字之间的间距 -->
+        <attr name="space" format="dimension" />
+        <!-- 是否保持文字正方形 -->
+        <attr name="isSquare" format="boolean" />
+        <!-- 文字的背景 -->
+        <attr name="textBackground" format="reference" />
+        <!-- 是否是密码 -->
+        <attr name="isPassword" format="boolean" />
+        <attr name="cursorDrawable" format="reference" />
+        <attr name="cursorDrawableWidth" format="dimension" />
+        <attr name="cursorDrawableHeight" format="dimension" />
+    </declare-styleable>
+
+
+    <style name="CommonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- 状态栏黑色文字 -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+</resources>

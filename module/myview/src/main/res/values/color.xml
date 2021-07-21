@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAppBg">#f9f6f2</color>
+    <color name="colorPrimaryDark">#262626</color>
+    <color name="colorAppRed">#FF5959</color>
+    <color name="colorVeryLightPink">#FFFEFC</color>
+
+    <color name="lineColor">#1f262626</color>
+    <color name="lightGray">#10262626</color>
+    <color name="lineColor2">#e4e4e4</color>
+
+    <color name="colorBlue">#007aff</color>
+    <color name="colorWhiteMask">#b2ffffff</color>
+    <color name="colorWhite80">#b2ffffff</color>
+    <color name="colorWhite50">#86ffffff</color>
+    <color name="colorWhite40">#66FFFFFF</color>
+    <color name="colorWhite20">#33ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorFeedbackTextColor">#b2b2b2</color>
+    <color name="colorScrollBar">#33d6d6d6</color>
+
+
+    <color name="grapefruit">#FF5959</color>
+    <color name="grey">#929292</color>
+    <color name="grey_light">#C4C5C2</color>
+
+    <color name="offWhite">#F2EFEB</color>
+    <color name="mask_black_80">#CC000000</color>
+    <color name="mask_black_70">#B3000000</color>
+
+    <color name="item_character_text_dark">#262928</color>
+    <color name="item_character_hint_dark">#99262928</color>
+    <color name="item_character_hint_white">#99FFFFFF</color>
+
+
+    <color name="colorItemReport">#4c262928</color>
+    <color name="brownGreyTwo">#929292</color>
+
+    <color name="colorMessageLine">#f7f7f7</color>
+
+
+    <color name="colorConversationPairBg">#fe5290</color>
+    <color name="colorConversationReportBg">#C7C7CB</color>
+
+    <color name="mainBackgroundColor">#F5F5F5</color>
+    <!--    个人中心页面详情内容列表背景色-->
+    <color name="colorBgMeWidgetList">#F7F6F4</color>
+
+
+    <!--主色-->
+    <color name="colorPrimary">#63E0A9</color>
+    <color name="colorPrimary17">#2B63E0A9</color>
+    <color name="colorPrimary30">#4D63E0A9</color>
+    <!--选中状态/装饰颜色-->
+    <color name="colorPrimaryLight">#38E89B</color>
+    <color name="colorPrimaryLight10">#1A38E89B</color>
+    <color name="colorPrimaryLight30">#4D38E89B</color>
+
+
+    <!--辅色, 背板颜色等-->
+    <color name="colorAccent">#8F7BFF</color>
+    <color name="colorAccent8">#148F7BFF</color>
+    <color name="colorAccent20">#338F7BFF</color>
+
+
+    <!--负向Alert颜色-->
+    <color name="colorWarning">#FE525A</color>
+
+    <color name="colorRedText">#FF205B</color>
+
+
+    <color name="colorText">#FF262928</color>
+    <color name="colorText4">#0A262928</color>
+    <color name="colorText6">#0F262928</color>
+    <color name="colorText9">#17262928</color>
+    <color name="colorText10">#1A262928</color>
+    <color name="colorText14">#24262928</color>
+    <color name="colorText20">#33262928</color>
+    <color name="colorText30">#4D262928</color>
+    <color name="colorText34">#57262928</color>
+    <color name="colorText40">#66262928</color>
+    <color name="colorText50">#80262928</color>
+    <color name="colorText60">#99262928</color>
+    <color name="colorText70">#B3262928</color>
+    <color name="colorText80">#CC262928</color>
+    <color name="colorText90">#E6262928</color>
+
+    <color name="colorChooseHobby">#805C5F5E</color>
+
+
+    <!--背景颜色, 白地卡片无投影/聊天页的背景-->
+    <color name="colorBackground_F5F5F5">#F5F5F5</color>
+    <!--聊天列表等背景色-->
+    <color name="colorBackground_FFFEFC">#FFFEFC</color>
+    <!--背景色-->
+    <color name="colorBackground_F9F9F9">#F9F9F9</color>
+    <color name="colorBackground_F3F2F9">#F3F2F9</color>
+
+    <color name="dividing">#F5F5F5</color>
+
+    <color name="partTranslucent">#39000000</color>
+
+    // 聊天昵称/时间条背景色值
+    <color name="text_timetv">#80262626</color>
+
+    <color name="color_interactive_262928">#262928</color>
+</resources>

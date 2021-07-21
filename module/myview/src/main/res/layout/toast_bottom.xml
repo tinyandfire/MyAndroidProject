@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/base_dp_10"
+        android:paddingEnd="@dimen/base_dp_10"
+        app:bl_corners_radius="@dimen/base_dp_10"
+        app:bl_solid_color="@android:color/black"
+        tools:background="@android:color/black"
+        tools:ignore="MissingPrefix">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/toast_icon"
+            android:layout_width="@dimen/base_dp_20"
+            android:layout_height="@dimen/base_dp_20"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/toast_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/base_dp_10"
+            android:paddingTop="@dimen/base_dp_14"
+            android:paddingEnd="@dimen/base_dp_10"
+            android:paddingBottom="@dimen/base_dp_14"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            tools:text="对方未接起，继续搜索…" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
